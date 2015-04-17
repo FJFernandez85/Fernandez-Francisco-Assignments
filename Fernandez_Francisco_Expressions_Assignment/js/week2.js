@@ -4,7 +4,7 @@ Francisco Fernandez
 Expressions
  */
 
-// Yearly Movie Budget Calculator
+// Yearly Movie spending Calculator
 
 //Ask the user for their favorite movie
 var name = prompt ("What is the name of your favorite movie?\nType in the movie title. ");
@@ -13,8 +13,20 @@ var name = prompt ("What is the name of your favorite movie?\nType in the movie 
 alert("Wow! "+name+" is a great movie.");
 
 //Ask the user for the amount of money spent on movies each month
-var moneySpent = prompt ("How much money do you spend on movies monthly?");
+var moneySpent = prompt ("What is the amount of money you allow yourself to spend on movies monthly?");
 
 //console.log the answer to check it
-console.log("moneySpent");
+console.log(moneySpent);
+
+alert("Now based on the amount of money you spend monthly on movies, lets figure out what your yearly spending amount is.");
+
+//calculate yearly movie spending
+//I need amount of money spent monthly on movies
+var monthsINyear = 12;
+
+//console.log the answer to check it
+console.log(monthsINyear);
+
+var yearlySpending = moneySpent * monthsINyear;
+
 
