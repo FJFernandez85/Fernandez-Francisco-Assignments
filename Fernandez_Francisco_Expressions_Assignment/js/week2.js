@@ -29,4 +29,12 @@ console.log(monthsINyear);
 
 var yearlySpending = moneySpent * monthsINyear;
 
+//console.log and alert final value
+console.log("Your yearly spending amount on movies is "+yearlySpending+".");
+
+alert("Your yearly spending amount on movies is "+yearlySpending+".");
+
+/* I input 40 dollars for monthly amount spent on movies and multiplied it by 12 months and my calculator gave answered
+ a total amount of 480 dollars spent yearly on movies. */
+
 
