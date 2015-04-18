@@ -11,6 +11,7 @@ Conditionals
 //If and Else
 //Else if
 
+
 var kidHeight = 52;
 var minHeight = 48;
 var wParentHeight = 45; //the height of the kid with the parent
