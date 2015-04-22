@@ -45,6 +45,23 @@ if(bowlofFruit[0]==="pear"){
     console.log("This item is a pearl!");
     totalNumPears++; //totalNumPears = totalNumPears + 1;
 }else{
-    console.log("This fruit is not a pair");
+    console.log("This fruit is not a pear");
+}
+if(bowlofFruit[2]==="pear") {
+    //This code will run if true
+    //Add 1 to the total numbers of pears
+    console.log("This item is a pear!");
+    totalNumPears++; //totalNumPears = totalNumPears + 1;
+}else{
+    console.log("This is not a Pair");
+}
+if(bowlofFruit[3]==="pear") {
+    //This code will run if true
+    //Add 1 to the total numbers of pears
+    console.log("This item is a pear!");
+    totalNumPears++; //totalNumPears = totalNumPears + 1;
+}else{
+    console.log("This fruit is not a pear");
 }
 
+console.log("There are "+totalNumPears+" pear)
