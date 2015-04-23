@@ -12,7 +12,7 @@ Section 01
 //Array - variable that holds multiple variables
 //Index # of an array always starts with 0!!
 
-var bowlofFruit = ["apple", "banana", "pear", "peach"];
+var bowlofFruit = ["apple", "banana", "pear", "peach", "banana", "kiwi"];
 
 //See whole array
 console.log(bowlofFruit);
@@ -64,4 +64,22 @@ if(bowlofFruit[3]==="pear") {
     console.log("This fruit is not a pear");
 }
 
-console.log("There are "+totalNumPears+" pear)
+console.log("There are "+totalNumPears+" pear(s) in the fruit bowl.");
+
+//Create a loop for repetitive code.
+//For Loop Structure
+//for (intializing a counting variable; condition to test; increment of change){code to run for each time we loop}
+
+for(var i =0; i<bowlofFruit.length; i++){
+    console.log("Inside the loop, i ="+i);
+    console.log(bowlofFruit[i]);
+    //Test if the array item is pear
+    if(bowlofFruit[i]==="pear"){
+        console.log("Found a pear!");
+        pearNumber++;
+    }else{
+        console.log("Fruit is not a pear");
+    }
+}
+
+console.log("The total number of pears in the bowl is"+pearNumber);
