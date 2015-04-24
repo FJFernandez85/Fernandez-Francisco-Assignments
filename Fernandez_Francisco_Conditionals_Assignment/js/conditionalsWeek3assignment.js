@@ -9,11 +9,10 @@ Conditionals Assignment
 
 var zombieKing = 500;
 
-//numberofTimes
 
-//alert("We need your help to defeat the zombie king.");
+alert("We need your help to defeat the zombie king.");
 
-//alert("This is the weapon selection .\n1.Grenade Launcher - dmg:20, sps:1\n2.Rifle - dmg:10, sps:10\n3.Pistol - dmg:4, sps:5\n(dmg - Damage per shot), (sps - Shots per Second)");
+alert("This is your weapon selection .\n1.Grenade Launcher - dmg:20, sps:1\n2.Rifle - dmg:10, sps:10\n3.Pistol - dmg:4, sps:5\n(dmg - Damage per shot), (sps - Shots per Second)");
 
 var weaponChoice = prompt("Input the damage amount of your weapon of choice.\n1.Grenade Launcher : 30 dmg\n2.Rifle : 10 dmg\n3.Pistol : 4 dmg");
 console.log(weaponChoice);
@@ -31,3 +30,12 @@ if(weaponChoice * shotsperSecond * numberofTimes > zombieKing ){
 }
 //Ternary Statement
 (weaponChoice * shotsperSecond * numberofTimes > zombieKing) ? console.log("You defeated the zombie king!") : console.log("You failed!");
+
+//Logical Operator
+if(weaponChoice || shotsperSecond && numberofTimes > zombieKing){
+    console.log("You defeated the zombie king!");
+}else{
+    console.log("You failed!")
+}
+//final files
+//1.grenadelauncher * 1 * 23 = defeated the zombie king
