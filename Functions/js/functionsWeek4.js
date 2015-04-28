@@ -4,16 +4,12 @@ Functions
 4/27/2015
 */
 
-//Functions - Basic Structure
+//Functions - Parameters and Arguments
 
-var width = 5; //Functions - Variable Scope
+//ex.
+//calcArea(30, 20);
 
-function calcArea(){
-    var width = 20;
-    var height = 30;
-    var area = width * height;
-    console.log(area);
-}
-
-calcArea();
-console.log(width); //Functions - Variable Scope
+//function calcArea(w, h){ //w=30, h=20
+    //var area = w * h;
+   //console.log(area);
+//}
