@@ -7,9 +7,18 @@ Functions
 //Functions - Parameters and Arguments
 
 //ex.
-//calcArea(30, 20);
 
-//function calcArea(w, h){ //w=30, h=20
-    //var area = w * h;
-   //console.log(area);
-//}
+//Function definition - parameters
+function dogYears(age){ //We dont need var in the parameter section because only variables declarations go inside the parenthesis
+    var dogYears = age * 7;
+    console.log("Sparky is "+ dogYears + "years old.")
+}
+//Function call- arguments
+
+dogYears(4);
+dogYears(6);
+dogYears(5);
+
+//also works
+//var age1 = 4;
+//dogYears(age1);
