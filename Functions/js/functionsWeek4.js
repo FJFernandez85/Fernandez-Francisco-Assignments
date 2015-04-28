@@ -6,9 +6,7 @@ Functions
 
 //Functions - Basic Structure
 
-function outptMsg(){
-    console.log("Hello World");
-}
+var width = 5; //Functions - Variable Scope
 
 function calcArea(){
     var width = 20;
@@ -17,9 +15,5 @@ function calcArea(){
     console.log(area);
 }
 
-//Functions - Function Execution
-
-outptMsg();
-
 calcArea();
-
+console.log(width); //Functions - Variable Scope
