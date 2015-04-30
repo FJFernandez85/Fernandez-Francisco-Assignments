@@ -49,9 +49,10 @@ function checkoutCOST(team, style, quantity){
     return finalCost;
 
 }
-checkoutCOST(25,10,0);
-checkoutCOST(25,10,1);
-checkoutCOST(25,10,2);
+//final files
+checkoutCOST(25,10,0);//$25(capcost) + $10(capstyle) * 0, number of caps bought = $35 final charge
+checkoutCOST(25,10,1);//$25(capcost) + $10(capstyle) * 1, number of caps bought = $35 final charge
+checkoutCOST(25,10,2);//$25(capcost) + $10(capstyle) * 2, number of caps bought = $70 final charge
 checkoutCOST(25,10,3);
 checkoutCOST(25,10,4);
 checkoutCOST(25,10,5);
