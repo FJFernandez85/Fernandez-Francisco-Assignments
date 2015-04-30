@@ -37,7 +37,6 @@ while(numberOFCAPS==="" || isNaN(numberOFCAPS)){
     numberOFCAPS = prompt("Please do not leave blank and only use numbers.\nType number of caps that you want.");
 }
 
-
 //create function with 3 parameters, and returned value
 
 var returnedValue = checkoutCOST(capTEAM, capSTYLE, numberOFCAPS);
@@ -57,3 +56,12 @@ checkoutCOST(25,10,3);
 checkoutCOST(25,10,4);
 checkoutCOST(25,10,5);
 
+//create anonymous function
+
+var salesTax = function (capCost, capLook, capNum, capTax){
+    var totalCost = (capCost + capLook) * capNum + capTax;
+    return totalCost;
+};
+
+var totalReturned = salesTax(30, 5, 2, 0.0825);
+console.log(totalReturned+"Final Cost")
