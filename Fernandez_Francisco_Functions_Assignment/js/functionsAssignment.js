@@ -65,4 +65,4 @@ var salesTax = function (capCost, capLook, capNum, capTax){
 };
 
 var totalReturned = salesTax(30, 5, 2, 0.0825);
-console.log(totalReturned+"Final Cost")
+console.log(totalReturned+"Final Cost");
